@@ -5,9 +5,15 @@ poc-piper-worker-flink
 
 > An experiment :alembic: to make [flink] a worker for the workflow engine [piper].
  
-# Description
+## Description
 
 ![piper-flink-overview](doc/piper-flink-overview.png)
+
+## Build
+
+```sh
+sbt clean package
+```
 
 [flink]: https://flink.apache.org/
 [piper]: https://github.com/creactiviti/piper
