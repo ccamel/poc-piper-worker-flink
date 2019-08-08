@@ -1,4 +1,11 @@
-dist: trusty
+dist: xenial
+
+cache:
+  # default timeout is too low
+  timeout: 600
+  directories:
+    - $HOME/.m2
+    - $HOME/.ivy2
 
 language: scala
 
@@ -8,7 +15,7 @@ scala:
 sudo: false
 
 jdk:
-  - oraclejdk8
+  - openjdk8
 
 script:
   - sbt ++$TRAVIS_SCALA_VERSION -J-Xms1024M package
