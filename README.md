@@ -8,6 +8,12 @@ poc-piper-worker-flink
  
 ## Description
 
+[piper] is an open-source, distributed workflow engine designed to be dead simple.
+
+This project demonstrates the great capability of [piper] to integrate with [flink], the stream-processing framework from the [Apache Software Foundation](https://en.wikipedia.org/wiki/Apache_Software_Foundation).
+
+The integration is achieved by designing a Flink Data Stream able to communicate with [piper] through [RabitMQ](https://www.rabbitmq.com/).
+
 ![piper-flink-overview](doc/piper-flink-overview.png)
 
 ## Build
