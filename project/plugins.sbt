@@ -1,1 +1,1 @@
-addSbtPlugin("com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "7.1.1+79-d6585f5e")
+addSbtPlugin("com.thoughtworks.sbt-best-practice" % "sbt-best-practice" % "7.2.0+6-804537a2")
