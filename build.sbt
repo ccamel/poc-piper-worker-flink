@@ -12,9 +12,9 @@ organization := "com.ccm.me.piper.worker.flink"
 ThisBuild / scalaVersion := "2.11.12"
 
 val flinkDependencies = Seq(
-  "org.apache.flink" %% "flink-scala" % "1.12.3" % "provided",
-  "org.apache.flink" %% "flink-streaming-scala" % "1.12.3" % "provided",
-  "org.apache.flink" %% "flink-connector-rabbitmq" % "1.12.3",
+  "org.apache.flink" %% "flink-scala" % "1.13.0" % "provided",
+  "org.apache.flink" %% "flink-streaming-scala" % "1.13.0" % "provided",
+  "org.apache.flink" %% "flink-connector-rabbitmq" % "1.13.0",
   "org.slf4j" % "slf4j-log4j12" % "1.7.30" % "runtime",
   "log4j" % "log4j" % "1.2.17" % "runtime")
 
