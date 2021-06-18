@@ -12,10 +12,10 @@ organization := "com.ccm.me.piper.worker.flink"
 ThisBuild / scalaVersion := "2.11.12"
 
 val flinkDependencies = Seq(
-  "org.apache.flink" %% "flink-scala" % "1.13.1" % "provided",
-  "org.apache.flink" %% "flink-streaming-scala" % "1.13.1" % "provided",
-  "org.apache.flink" %% "flink-connector-rabbitmq" % "1.13.1",
-  "org.slf4j" % "slf4j-log4j12" % "1.7.30" % "runtime",
+  "org.apache.flink" %% "flink-scala" % "1.13.0" % "provided",
+  "org.apache.flink" %% "flink-streaming-scala" % "1.13.0" % "provided",
+  "org.apache.flink" %% "flink-connector-rabbitmq" % "1.13.0",
+  "org.slf4j" % "slf4j-log4j12" % "1.7.31" % "runtime",
   "log4j" % "log4j" % "1.2.17" % "runtime")
 
 lazy val root = (project in file(".")).
