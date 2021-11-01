@@ -9,7 +9,7 @@ version := "0.1-SNAPSHOT"
 
 organization := "com.ccm.me.piper.worker.flink"
 
-ThisBuild / scalaVersion := "2.11.12"
+ThisBuild / scalaVersion := "2.13.7"
 
 val flinkDependencies = Seq(
   "org.apache.flink" %% "flink-scala" % "1.13.2" % "provided",
